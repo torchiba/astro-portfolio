@@ -99,7 +99,7 @@ export const siteConfig: SiteConfig = {
   name: "torchiba",
   title: "Front-end Engineer",
   description:
-    "デザインとフロントエンド開発を中心に、心地よく使えるWebを作っています。",
+    "デザインとフロントエンド開発を中心に、心地よく使えるWebを作っています",
   avatar: avatarImg,
   location: "Kanagawa, Japan",
   email: "hello@example.com",
