@@ -1,4 +1,12 @@
 @import "tailwindcss";
 @plugin "daisyui" {
   themes: light --default, dark --prefersdark, synthwave, retro, valentine, dim;
-};
+}
+
+:root[data-theme="light"],
+html[data-theme="light"] {
+  --color-primary: oklch(63% 0.11 60);     /* くすみオレンジブラウン */
+  --color-secondary: oklch(70% 0.09 100);  /* ベージュグレー */
+  --color-accent: oklch(68% 0.11 135);     /* 柔らかいオリーブカーキ */
+  --color-neutral: oklch(28% 0.02 100);    /* ダークオリーブグレー */
+}
