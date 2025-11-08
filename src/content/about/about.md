@@ -3,4 +3,10 @@ title: "About Me"
 photo: "https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Destiny&scale=90&backgroundColor=763900,9e5622,ecad80,f2d3b1,c0aede,b6e3f4"
 ---
 
-I'm a full-stack developer with a passion for creating beautiful, functional, and user-friendly web applications. With experience in **modern frameworks and technologies**, I love turning ideas into reality through code. When I'm not coding, you can find me **exploring new technologies**, contributing to open source, or enjoying a good cup of coffee.
+フロントエンドエンジニアとして、UI設計と実装を中心に活動しています。  
+見た目の美しさだけでなく、使いやすさや体験の心地よさを大切にしながら、日々コーディングに向き合っています。
+
+最近は、**Vue.js や React などのモダンなフレームワーク**を用いた開発や、**デザインと実装の橋渡し**を意識した制作を行っています。  
+学び続けることを楽しみながら、新しい技術にも柔軟に挑戦しています。
+
+猫と戯れること、コーヒーを飲んでぼーっとすること、編み物が好きです。

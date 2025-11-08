@@ -7,6 +7,7 @@
 
 import { BookOpen, FileText, Flower2, CodeXml } from "@lucide/astro";
 import { Code } from "astro:components";
+import avatarImg from "./assets/avatar.png";
 
 /**
  * Social media links configuration
@@ -95,21 +96,15 @@ export interface SiteConfig {
  * Update these values to customize your portfolio
  */
 export const siteConfig: SiteConfig = {
-  name: "🌻 Bloomfolio",
-  title: "Astro Portfolio Template built with 🌼 DaisyUI",
+  name: "torchiba",
+  title: "Front-end Engineer",
   description:
-    "A modern, responsive, and customizable portfolio template built with Astro and DaisyUI. Perfect for developers, designers, and creatives to showcase their work and skills.",
-  avatar: "../assets/bloomfolio.png",
-  location: "🇧🇷 Brazil",
+    "デザインとフロントエンド開発を中心に、心地よく使えるWebを作っています。",
+  avatar: avatarImg,
+  location: "Kanagawa, Japan",
   email: "hello@example.com",
   socialLinks: {
-    github: "https://github.com/lauroguedes",
-    linkedin: "https://linkedin.com/in/lauroguedes",
-    twitter: "https://twitter.com/leowg",
-    bluesky: "https://bsky.app/profile/lauroguedes.bsky.social",
-    instagram: "https://instagram.com/lauroguedes.dev",
-    youTube: "https://youtube.com/leowgweb",
-    codetips: "https://codetips.cloud/u/lauroguedes",
+    github: "https://github.com/torchiba",
   },
   enableThemeSelector: true,
   extraLinks: {
@@ -140,7 +135,7 @@ export const siteConfig: SiteConfig = {
   sections: {
     about: true,
     projects: true,
-    blog: true,
+    blog: false,
     work: true,
     education: true,
     hackathons: true,
