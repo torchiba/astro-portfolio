@@ -1,6 +1,6 @@
 ---
 import Layout from "./Layout.astro";
-import { Image } from "astro:assets";
+// import { Image } from "astro:assets";
 import SkillBadge from "../components/SkillBadge.astro";
 import { ExternalLink } from "@lucide/astro";
 
@@ -9,7 +9,7 @@ interface Props {
   description: string;
   startDate: Date;
   endDate?: Date;
-  image: any;
+  // image: any;
   skills: string[];
   demoLink?: string;
   sourceLink?: string;
@@ -20,7 +20,7 @@ const {
   description,
   startDate,
   endDate,
-  image,
+  // image,
   skills,
   demoLink,
   sourceLink,
@@ -81,7 +81,7 @@ function calculateDuration(startDate: Date, endDate?: Date) {
 
     <!-- Featured Image -->
     <!-- TODO: Future Enhancement - Support multiple images/project gallery -->
-    {
+    <!-- {
       image && (
         <figure class="mb-8 rounded-2xl overflow-hidden">
           <Image
@@ -93,7 +93,7 @@ function calculateDuration(startDate: Date, endDate?: Date) {
           />
         </figure>
       )
-    }
+    } -->
 
     <!-- Project Header -->
     <header class="mb-8">

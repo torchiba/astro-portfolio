@@ -27,18 +27,28 @@ const education = defineCollection({
   }),
 });
 
+const bullet = z.object({
+  text: z.string().min(2).max(140),
+  impact: z.string().optional(),
+  metric: z.string().optional(),
+  link: z.string().url().optional(),
+});
 // Projects collection
 const projects = defineCollection({
   loader: glob({ pattern: "**/*.md", base: "./src/content/projects" }),
   schema: ({ image }) => z.object({
     title: z.string(),
     description: z.string(),
-    image: image(),
+    image: image().optional(),
     startDate: z.coerce.date(),
     endDate: z.coerce.date().optional(),
+    role: z.string().optional(),
+    companyAlias: z.string().optional(),
+    engagement: z.string().optional(),
+    domain: z.string().optional(),
     skills: z.array(z.string()),
-    demoLink: z.string().url().optional(),
-    sourceLink: z.string().url().optional(),
+    responsibilities: z.array(bullet).default([]).optional(),
+    highlights: z.array(bullet).default([]).optional()
   }),
 });
 
