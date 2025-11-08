@@ -48,4 +48,3 @@ License: MIT
 Created by [Lauro Guedes](https://github.com/lauroguedes).
 
 </details>
-```
